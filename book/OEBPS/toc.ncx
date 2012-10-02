@@ -8,26 +8,38 @@
     <meta name="dtb:totalPageCount" content="0" />
     <meta name="dtb:maxPageNumber" content="0" />
   </head>
+
   <docTitle>
     <text>Receitas</text>
   </docTitle>
+  
+  <docAuthor>
+    <text>Covas, Francisco</text>
+  </docAuthor>
+  
   <navMap>
-    <navPoint id="navPoint-1" playOrder="1">
+    <navPoint id="navPoint-0" playorder="1">
+       <navLabel>
+          <text>Cover</text>
+        </navLabel>
+        <content src="Text/cover.html" />
+    </navPoint>
+    <navPoint id="navPoint-1" playOrder="2">
       <navLabel>
         <text>Receitas de Peixe</text>
       </navLabel>
-      <content src="Text/receitas_de_peixe.html#sigil_toc_id_1" />
-      <navPoint id="navPoint-2" playOrder="2">
+      <content src="Text/receitas_de_peixe.html" />
+      <navPoint id="navPoint-2" playOrder="3">
         <navLabel>
           <text>Atum com Tomilho</text>
         </navLabel>
-        <content src="Text/atum_com_tomilho.html#sigil_toc_id_2" />
+        <content src="Text/atum_com_tomilho.html" />
       </navPoint>
-      <navPoint id="navPoint-3" playOrder="3">
+      <navPoint id="navPoint-3" playOrder="4">
         <navLabel>
           <text>Ervilhas com Ovos</text>
         </navLabel>
-        <content src="Text/ervilhas_com_ovos.html#sigil_toc_id_3" />
+        <content src="Text/ervilhas_com_ovos.html" />
       </navPoint>
     </navPoint>
   </navMap>

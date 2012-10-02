@@ -1,3 +1,4 @@
 #! /bin/sh
 
-zip -r -X deploy/recipes.epub book/*
+cd book
+zip -Xr ../deploy/recipes.epub mimetype META-INF OEBPS -x@../exclude.lst
