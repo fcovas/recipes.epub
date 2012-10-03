@@ -18,24 +18,42 @@
   </docAuthor>
   
   <navMap>
-    <navPoint id="navPoint-0" playorder="1">
+    <navPoint id="navPoint-1" playOrder="1">
        <navLabel>
           <text>Cover</text>
         </navLabel>
-        <content src="Text/cover.html" />
+        <content src="Text/cover.xhtml" />
     </navPoint>
-    <navPoint id="navPoint-1" playOrder="2">
+
+    <navPoint id="navPoint-2" playOrder="2">
       <navLabel>
         <text>Receitas de Peixe</text>
       </navLabel>
       <content src="Text/receitas_de_peixe.html" />
-      <navPoint id="navPoint-2" playOrder="3">
+
+      <navPoint id="navPoint-3" playOrder="3">
         <navLabel>
           <text>Atum com Tomilho</text>
         </navLabel>
         <content src="Text/atum_com_tomilho.html" />
       </navPoint>
-      <navPoint id="navPoint-3" playOrder="4">
+
+      <navPoint id="navPoint-4" playOrder="4">
+        <navLabel>
+          <text>Bacalhau à Gomes de Sá</text>
+        </navLabel>
+        <content src="Text/bacalhau_a_gomes_de_sa.html" />
+      </navPoint>
+
+    </navPoint>
+
+    <navPoint id="navPoint-5" playOrder="5">
+      <navLabel>
+        <text>Receitas de Carne</text>
+      </navLabel>
+      <content src="Text/receitas_de_carne.html" />
+
+      <navPoint id="navPoint-6" playOrder="6">
         <navLabel>
           <text>Ervilhas com Ovos</text>
         </navLabel>
