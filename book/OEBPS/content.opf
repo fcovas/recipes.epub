@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="3.0">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:5e74f6a0-cd8f-4812-acde-d0a511a02c65</dc:identifier>
     <dc:title>Receitas</dc:title>
@@ -10,7 +10,7 @@
   </metadata>
 
   <manifest>
-    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="toc.html" id="toc" media-type="application/xhtml+xml" />
     <item href="Text/atum_com_tomilho.html" id="atum_com_tomilho.html" media-type="application/xhtml+xml" />
     <item href="Text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml" />
     <item href="Text/receitas_de_peixe.html" id="receitas_de_peixe.html" media-type="application/xhtml+xml" />
@@ -20,8 +20,9 @@
     <item href="style.css" id="style.html" media-type="text/css" />
   </manifest>
   
-  <spine toc="ncx">
+  <spine>
     <itemref idref="cover.xhtml" />
+    <itemref idref="toc" />
     <itemref idref="receitas_de_peixe.html" />
     <itemref idref="atum_com_tomilho.html" />
     <itemref idref="bacalhau_a_gomes_de_sa.html" />
@@ -29,9 +30,4 @@
     <itemref idref="ervilhas_com_ovos.html" />
   </spine>
   
-  <guide>
-    <reference href="Text/cover.xhtml" title="Cover" type="cover" />
-    <reference href="Text/receitas_de_peixe.html" title="Title Page" type="title-page" />
-    <reference href="Text/receitas_de_carne.html" title="Title Page" type="title-page" />
-  </guide>
 </package>
