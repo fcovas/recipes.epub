@@ -13,14 +13,14 @@
     <meta refines="#creator" property="file-as">Covas, Francisco</meta>
     <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
 
-    <dc:identifier id="pub-id">urn:uuid:12C1DF3E-DF35-4FCF-918B-643FF15A7870</dc:identifier>
+    <dc:identifier id="pub-id">urn:uuid:12C1DF3E-DF35-4FCF-918B-645FF15A7870</dc:identifier>
     <meta refines="#pub-id" property="identifier-type" scheme="xsd:string">15</meta>
     
     <dc:language>pt</dc:language>
     
     <meta property="dcterms:modified">2012-10-01T12:00:00Z</meta>
 
-    <dc:date>2010</dc:date>
+    <dc:date>2012</dc:date>
 
     <meta content="cover-image" name="cover"/>
 
